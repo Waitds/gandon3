@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Индивидуальные тренировки</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Link to your CSS file -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"
+          />  
+</head>
+<body>
+
+
+
+
+
+    <div class="about">
+        <a href="" class="sliding-button">ОБО МНЕ</a>
+        <a href="" class="sliding-button">Контактная информация</a>
+        <a href="" class="sliding-button">спортивный зал</a>
+    </div>
+    <div class="container">
+        <h1 class="gradient-text">Индивидуальные тренировки</h1>
+        <h2>Для взрослых и детей любого возраста</h2>
+
+        <img id="photo" src="fotki/ww.jpeg" alt="Trainer Image">  <!-- Replace with the URL to your image -->
+
+
+        <h2>Достижения тренера:</h2>
+        <div class="contact-info">
+        <ul>
+            <li>Победитель Первенства Мира по муай-тай (тайскому боксу)</li>
+            <li>Победитель Первенства Мира по Всестилевому Карате (направление рукопашки)</li>
+            <li>Победитель Первенства России по муай-тай</li>
+            <li>Победитель Первенства России по Панкратиону (спортивная борьба)</li>
+            <li>Победитель Всероссийских соревнований на призы «Спартака»</li>
+            <li>Кандидат в Мастера Спорта по: Муай-тай, Классический бокс И по боевым смешанным единоборствам (MMA)</li>
+        </ul>
+        </div>
+        <div class="carera">
+        <p class="highlight"><strong>Любительская карьера более 10 лет!</strong></p>
+        </div>
+        <div class="contact-info">
+            <h2>Контактная информация:</h2>
+            <p><b>Место проведения:</b> г. Оренбург, ул. Ноябрьская 43/2, клуб Единоборств ВОИН</p>
+            <p><b>Телефон:</b> +79871924877</p>
+        </div>
+    
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab316698dfd708f40950fbc6d5d4a3c098ea4d4944ba00d10f89a86e10b5314fa&amp;width=100%25&amp;height=512&amp;lang=ru_RU&amp;scroll=true"></script>
+      
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      document.getElementById("photo").addEventListener("click", () => {
+        Fancybox.show([
+          {
+            src: "https://sun9-56.userapi.com/s/v1/if1/JeqKNw7xR-Tvl6ygEYexmJshrh4ZIrJLc0zisLXzuWcIZPbW-5eXyM2axXWz1otk_2vKDTPE.jpg?quality=96&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1620x2160&from=bu&cs=453x604",
+            type: "image",
+          },
+        ]);
+      })
+    </script>  
+</body>
+</html>
